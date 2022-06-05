@@ -1,10 +1,10 @@
 # StructuredArtifactDumper
-This is a script to run from a removable drive, which will iterate through multiple security tools and perform forensic aquisition using each, then create an overview of the results and stored hashes. initial arguments taken are minimal (such as hostname, investigator name, case description) and are passed to each forensic tool as required.
+This is a script to run from a removable drive, which will iterate through multiple security tools and perform forensic acquisition using each, then create an overview of the results and stored hashes. Initial arguments taken are minimal (such as hostname, investigator name, case description) and are passed to each forensic tool as required.
 
 # History
 
 A former college instructor of mine from a graudate forensics course provided the class with a cmd.exe bat script for pulling consistent forensic artifacts and appending result files with dates, etc. This was all good and well, but cmd.exe has long since been surpassed, and I thought to modernize the concept using PowerShell and a more object-oriented approach.
-I ramped it up to 400+ lines of PowerShell to call RM dump, disk image, and even some initial volatility analysis, but the script is still in its infancy.
+I ramped it up to 400+ lines of PowerShell to call RAM dump, disk image, and even some initial volatility analysis, but the script is still in its infancy.
 
 # Purpose
 
