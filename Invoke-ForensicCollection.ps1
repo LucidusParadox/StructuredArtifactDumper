@@ -1,6 +1,7 @@
 ﻿<#
 #####################################################################################
 # Renamed from initial school project name of 'Get-ForensicData' to 'Invoke-ForensicCollection' for more appropriate PowerShell verb usage.
+https://docs.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.2
 FUNCTIONS
 *** hash as you go, hash should be the renamed files, in a list for each function, and added to over-all data structure 
 *** user output for feedback while it runs!
